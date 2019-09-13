@@ -1,0 +1,161 @@
+.homepage_image {
+    width: 100%;
+    position: relative;
+    background-repeat: no-repeat;
+    }
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+    }
+
+.placed_top {
+    position: absolute;
+    top: 35%;
+    left: 28%;
+    width: 500px;
+    height: 55px;
+    background-color: #45526E;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 400;
+    color: white;
+    animation-name: header_frame;
+    animation-duration: 8s;    
+    }
+
+.placed_center {
+    position: absolute;
+    top: 48%;
+    left: 36%;
+    width: 300px;
+    height: 35px;
+    background-color: #45526E;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    }
+
+.btn{
+    position: absolute;
+    top: 59%;
+    left: 40%;
+    display: block;
+    width: 195px;
+    height: 45px;
+    background-color: #263238;
+    border: 1px white;
+    border-color: white;
+    text-align: center;
+    font-size: 12px;
+    font-style: bold;
+    -webkit-animation: colorchange 20s infinite;
+    }
+
+.mission {
+    text-align: center;
+    border-bottom: 1px solid black;
+    margin: 0 13%;
+}
+
+.mission_statement {
+    text-align: center;
+    border-left: 1px solid lightgray;
+    font-size: 12px;
+}
+
+.image_format {
+    width: 100%;
+    height: 60%;
+    padding: 10px;
+    }
+
+.card-group {    
+    margin: 1% 12%;
+}
+
+.card {
+    margin: 0% 1%;
+}
+
+.btn_btn {
+    background-color: black;
+    text-align: center;
+    font-size: 14px;
+    color: white;
+    }
+
+footer {
+    text-align: center;
+    background-color: #9E9E9E;
+    color: white;
+    margin: 2% 11%;
+    height: 45px;
+    
+}
+
+@keyframes header_frame {
+    0%   {left:-200px; top:-50px;}
+    25%  {left:-200px; top:-100px;}
+    50%  {left:400px; top:200px;}
+    75%  {left:600px; top:200px;}
+    100% {left:28%; top:35%;}
+}
+
+@-webkit-keyframes colorchange {
+    0% {
+      
+      color: blue;
+    }
+    
+    10% {
+      
+      color: #8e44ad;
+    }
+    
+    20% {
+      
+      color: #1abc9c;
+    }
+    
+    30% {
+      
+      color: #d35400;
+    }
+    
+    40% {
+      
+      color: blue;
+    }
+    
+    50% {
+      
+      color: #34495e;
+    }
+    
+    60% {
+      
+      color: blue;
+    }
+    
+    70% {
+      
+      color: #2980b9;
+    }
+    80% {
+   
+      color: #f1c40f;
+    }
+    
+    90% {
+   
+      color: #2980b9;
+    }
+    
+    100% {
+      
+      color: pink;
+    }
+  }
